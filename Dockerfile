@@ -1,4 +1,4 @@
-FROM hiracchi/ubuntu-ja:18.04.3
+FROM hiracchi/ubuntu-ja:latest
 
 ARG BUILD_DATE
 ARG VCS_REF

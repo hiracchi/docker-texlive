@@ -15,9 +15,9 @@ ENV LC_ALL=C LANG=C DEBIAN_FRONTEND=noninteractive
 
 ENV PACKAGES="\
   make \
-  texlive-lang-japanese texlive-lang-cjk texlive-fonts-recommended texlive-fonts-extra \
-  xdvik-ja \
   texlive-science \
+  texlive-lang-japanese texlive-lang-cjk texlive-fonts-recommended texlive-fonts-extra \
+  xdvik-ja dvipsk-ja \
   dvipng \
   gv nkf gnuplot tgif gimp inkscape mimetex latexdiff latexmk \
   "

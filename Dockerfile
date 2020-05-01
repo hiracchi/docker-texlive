@@ -17,10 +17,12 @@ ENV PACKAGES="\
   make \
   texlive-science \
   texlive-lang-japanese texlive-lang-cjk texlive-fonts-recommended texlive-fonts-extra \
-  xdvik-ja dvipsk-ja \
+  xdvik-ja \
   dvipng \
   gv nkf gnuplot tgif gimp inkscape mimetex latexdiff latexmk \
   "
+# dvipsk-ja was removed on the ubuntu repository.
+
 
 # setup packages ===============================================================
 RUN set -x && \
